@@ -59,6 +59,12 @@ requirementsTags:
   - type: TASK_VARIABLE
     value: 'TWITTER_PASSWORD'
     description: 'The password of your volunteer Twitter account.'
+  - type: TASK_VARIABLE
+    value: "KEYWORD"
+    description: "keyword to search for"
+  - type: TASK_VARIABLE
+    value: "CHROME_EXECUTABLE_PATH"
+    description: "Add chrome executable path"
 
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
 tags: ["AI", "ML"] 
